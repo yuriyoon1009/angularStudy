@@ -1,4 +1,4 @@
-# angularStudy
+ # angularStudy
 
 ## Angular Component - Interaction
 [컴포넌트 간의 상태 공유](link)
@@ -13,7 +13,7 @@
 - 부모 컴포넌트에서 자식 컴포넌트로 상태 전달
 - form 요소를 가지고 있는 부모 컴포넌트의 경우, 사용자에 의해 상태(state)가 변경되면 자식 컴포넌트와 공유할 필요가 있다.
 - 부모 컴포넌트는 프로퍼티 바인딩을 통해 자식 컴포넌트에게 상태 정보를 전달한다.
-- ex) <app-user-list [users]="users"></app-user-list>
+- ex) aa <app-user-list [users]="users"></app-user-list>
 
 ```
 //property binding 
