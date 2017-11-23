@@ -20,4 +20,13 @@
 //state : myState
 <child [state]="myState"></child>
 @input() state:string;
+
+// v1, v2, v3, v4
+// node-sass
+
+// social login
+
+// login, search engine
+// 여행자 찾기 위치 다음에 재능 갈 위치, 갈 위치, 
+
 ```
