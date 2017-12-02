@@ -25,8 +25,54 @@
 // node-sass
 
 // social login
-
 // login, search engine
 // 여행자 찾기 위치 다음에 재능 갈 위치, 갈 위치, 
 
 ```
+
+### Sass integration
+
+#### step 1
+-  when generating a new project
+```
+ng new sassy-project --style=sass
+```
+- angular-cli.json style.sass 로 기본 세팅이 되어있음.
+
+-  or set the default style on an existing project
+```
+ng set defaults.styleExt scss
+```
+- .angular-cli.json defaults styleExt value 바뀜
+```
+"defaults": {
+    "styleExt": "scss",
+    "class": {
+      "spec": false
+    }
+```
+#### step 2
++ 기존 프로젝트 후에 sass를 설치 한 경우
+  + style.css 를 style.scss 
+  + angular-cli.json 아래와 같이 바꿔주기 
+  ```
+   "styles": [
+        "styles.scss"
+      ]
+  ```
+
+### step 3
++ noramalize.css , bootstrap custom 연결 방법
+ + 기본 style.css 지우고 styles폴더 안에 main.scss
+ ```
+  "styles":[
+      "styles/main.scss"
+  ]
+ ```
++ npm i -S bootstrap-sass
+  ```
+  @import "bootstrap_custom.scss";
+  ```
+
+
+
