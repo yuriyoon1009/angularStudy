@@ -75,8 +75,7 @@ ng set defaults.styleExt scss
   ```
   + node_modules > bootstrap-sass > assets > stylesheets > bootstrap.scss <br> bootstrap.scss 에 import 한게 다 있다. 복사를 한다.
 
-  ![img1]
-
+  <img src="./img/1.JPG" style="width:100px;"/>
   + 전역 styles/bootstrap_custom.scss 붙여넣기를 한다.
 
   <img src="./img/2.JPG" style="width:100px;"/>
@@ -89,7 +88,8 @@ ng set defaults.styleExt scss
   ```
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
- 
+   [img1]: <img/1.JPG>
+   [img2]: <img/2.JPG>
    [img3]: <img/3.JPG> 
 
 
