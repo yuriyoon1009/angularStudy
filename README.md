@@ -69,10 +69,25 @@ ng set defaults.styleExt scss
       "styles/main.scss"
   ]
  ```
-+ npm i -S bootstrap-sass
+  + bootstrap-sass 설치
   ```
+  npm i -S bootstrap-sass
+  ```
+  + node_modules > bootstrap-sass > assets > stylesheets > bootstrap.scss <br> bootstrap.scss 에 import 한게 다 있다. 복사를 한다.
+ ![img2]
+  + 전역 styles/bootstrap_custom.scss 붙여넣기를 한다.
+  ![img1]
+  
+  + 전역 styles/main.scss import 한다.
+  ![img3]
+  ``` 
   @import "bootstrap_custom.scss";
   ```
 
+
+ 
+   [img1]: <img/1.JPG>
+   [img2]: <img/2.JPG>
+   [img3]: <img/3.JPG> 
 
 
