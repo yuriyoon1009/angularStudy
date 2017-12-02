@@ -82,6 +82,7 @@ ng set defaults.styleExt scss
   ```
   @import "../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables"
   ```
+  <img src="./img/sass2.JPG" style="width:100px;"/>
   + 전역 styles/main.scss import 한다.
   ``` 
   @import "bootstrap_custom.scss";
