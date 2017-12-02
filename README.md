@@ -79,11 +79,11 @@ ng set defaults.styleExt scss
 
   + 전역 styles/bootstrap_custom.scss 붙여넣기를 한다.
 
-  <img src="./img/2.JPG" style="width:200px;"/>
+  <img src="./img/2.JPG" style="width:100px;"/>
   
   + 전역 styles/main.scss import 한다.
   
-  <img src="./img/3.JPG" style="width:200px;"/>
+  <img src="./img/3.JPG" style="width:100px;"/>
   ``` 
   @import "bootstrap_custom.scss";
   ```
