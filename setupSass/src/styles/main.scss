@@ -1,4 +1,11 @@
-@import "bootstrap_custom.scss";
-body{
-    color:red;
+@import "_bootstrap_custom.scss";
+$font_color: #333;
+$link_color: #00c;
+$font_family: Arial, sans-serif;
+$font_size: 16px;
+$line_height: percentage(20px / $font_size);
+$body_background: #aaa;
+
+body {
+  background: $body_background;
 }
