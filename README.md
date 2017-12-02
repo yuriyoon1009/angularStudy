@@ -92,4 +92,4 @@ ng set defaults.styleExt scss
    [img1]: <img/1.JPG>
    [img2]: <img/2.JPG>
    [img3]: <img/3.JPG> 
-   [Sass integration]: <>
+   [Sass integration]: <https://github.com/yuriyoon1009/angularStudy/tree/master/setupSass/src/styles>
