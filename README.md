@@ -94,5 +94,5 @@ ng set defaults.styleExt scss
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [img1]: <img/1.JPG>
    [img2]: <img/2.JPG>
-   [img3]: <img/3.JPG> 
+   [img3]: <img/sass3.JPG> 
    [Sass integration]: <https://github.com/yuriyoon1009/angularStudy/tree/master/setupSass/src/styles>
