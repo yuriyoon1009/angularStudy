@@ -9,8 +9,7 @@ npm intsall @agm/core --save
 
 #### Map Functions & Event
 
-#### Map add, marker form
-
+#### Map add, marker form, function
 
 References
 install 
