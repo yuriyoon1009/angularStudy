@@ -90,6 +90,17 @@ ng set defaults.styleExt scss
   ```
 
   ![img3]
+  
+ ### step 4
+ - 자식 component 생성시 scss 세팅. <br> style=scss <br> 
+
+ ```
+ ng g childComponent style=scss
+ ``` 
+ - 주의 : 부모 컴포넌트 inline이면 자녀 컴포넌트도 inline으로 자동으로 생성되기 때문에 external scss 가 생성 될 수 없음. external scss 원한다면 터미널 대신 직접 추가하기.
+ ```
+ styleUrls: ['./child-component.component.scss']
+ ```
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
    [img1]: <img/1.JPG>
